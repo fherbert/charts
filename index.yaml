@@ -193,6 +193,29 @@ entries:
   calibre-web:
   - apiVersion: v2
     appVersion: 0.6.9
+    created: "2021-02-16T14:11:08.852963052Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.
+    digest: 00823812df5c86a26300ee381c1116bb3c93c40351cf5ceefc71af87b5a9a66a
+    home: https://github.com/truecharts/truecharts/tree/master/charts/calibre-web
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png
+    keywords:
+    - calibre
+    - ebook
+    maintainers:
+    - name: TrueCharts
+    name: calibre-web
+    sources:
+    - https://hub.docker.com/r/linuxserver/calibre-web/
+    - https://github.com/janeczku/calibre-web
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/calibre-web-1.0.0/calibre-web-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 0.6.9
     created: "2021-02-11T20:51:30.912637473Z"
     dependencies:
     - name: common
@@ -647,6 +670,29 @@ entries:
   freshrss:
   - apiVersion: v2
     appVersion: 1.17.0
+    created: "2021-02-16T14:11:08.962566937Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: FreshRSS is a self-hosted RSS feed aggregator
+    digest: d3eb93f491258e48e8fb05adf8d8592813db147fffd3e45cf4f757a6f9ba5eaa
+    home: https://github.com/truecharts/truecharts/tree/master/charts/freshrss
+    icon: https://github.com/FreshRSS/FreshRSS/blob/master/docs/img/FreshRSS-logo.png?raw=true
+    keywords:
+    - freshrss
+    - rss
+    maintainers:
+    - name: TrueCharts
+    name: freshrss
+    sources:
+    - https://github.com/FreshRSS/FreshRSS
+    - https://hub.docker.com/r/linuxserver/freshrss
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/freshrss-1.0.0/freshrss-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.17.0
     created: "2021-02-11T20:51:31.124601266Z"
     dependencies:
     - name: common
@@ -717,6 +763,28 @@ entries:
   gaps:
   - apiVersion: v2
     appVersion: latest
+    created: "2021-02-16T14:11:09.111761943Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Gaps searches through your Plex Server or local folders for all movies, then queries for known movies in the same collection.
+    digest: 007fcfec5bcdd2ca8ecb42838a9e0919501e9141e2cdbeeb028d06819991fadb
+    home: https://github.com/truecharts/truecharts/tree/master/charts/gaps
+    icon: https://raw.githubusercontent.com/JasonHHouse/gaps/master/images/Final-Black.png
+    keywords:
+    - plex
+    - plex-media-server
+    maintainers:
+    - name: TrueCharts
+    name: gaps
+    sources:
+    - https://github.com/JasonHHouse/gaps
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/gaps-1.0.0/gaps-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: latest
     created: "2021-02-11T20:51:31.250040959Z"
     dependencies:
     - name: common
@@ -782,6 +850,27 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/gaps-0.0.1/gaps-0.0.1.tgz
     version: 0.0.1
   grocy:
+  - apiVersion: v2
+    appVersion: v2.7.1
+    created: "2021-02-16T14:11:09.22467547Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home
+    digest: 578bcf9c70025ecc679e14db4e267fdd1f62619f3c32a9f67405162916033910
+    home: https://github.com/truecharts/truecharts/tree/master/charts/grocy
+    icon: https://github.com/grocy/grocy/raw/master/public/img/appicons/mstile-150x150.png
+    keywords:
+    - grocy
+    maintainers:
+    - name: TrueCharts
+    name: grocy
+    sources:
+    - https://github.com/grocy/grocy
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/grocy-1.0.0/grocy-1.0.0.tgz
+    version: 1.0.0
   - apiVersion: v2
     appVersion: v2.7.1
     created: "2021-02-11T20:51:31.367612004Z"
@@ -1921,6 +2010,30 @@ entries:
   lychee:
   - apiVersion: v2
     appVersion: 4.0.8
+    created: "2021-02-16T14:11:09.326183833Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Lychee is a free photo-management tool, which runs on your server or web-space
+    digest: 60a2041acf80b64aeedcefc328376ab2aafc02c06ea5c920d47e1c54e97470dd
+    home: https://github.com/truecharts/truecharts/tree/master/charts/lychee
+    icon: https://github.com/LycheeOrg/Lychee/blob/master/Banner.png?raw=true
+    keywords:
+    - lychee
+    - photo
+    - pictures
+    maintainers:
+    - name: TrueCharts
+    name: lychee
+    sources:
+    - https://github.com/LycheeOrg/Lychee
+    - https://hub.docker.com/r/lycheeorg/lychee
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/lychee-1.0.0/lychee-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 4.0.8
     created: "2021-02-11T20:51:32.249609921Z"
     dependencies:
     - name: common
@@ -2131,6 +2244,29 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/node-red-0.1.0/node-red-0.1.0.tgz
     version: 0.1.0
   nzbhydra:
+  - apiVersion: v2
+    appVersion: v3.8.1
+    created: "2021-02-16T14:11:09.439320963Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Usenet meta search
+    digest: d7440697ed804c895769bf8e76d5d19a94f7de6dceeded09d794fe1c2ba1b5fa
+    home: https://github.com/truecharts/truecharts/tree/master/charts/nzbhydra
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-icon.png
+    keywords:
+    - nzbhydra
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: nzbhydra
+    sources:
+    - https://hub.docker.com/r/linuxserver/nzbhydra2
+    - https://github.com/theotherp/nzbhydra2
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/nzbhydra-1.0.0/nzbhydra-1.0.0.tgz
+    version: 1.0.0
   - apiVersion: v2
     appVersion: v3.8.1
     created: "2021-02-16T13:48:13.957709539Z"
@@ -2835,6 +2971,32 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/radarr-0.1.0/radarr-0.1.0.tgz
     version: 0.1.0
   readarr:
+  - apiVersion: v2
+    appVersion: 0.2.0.351
+    created: "2021-02-16T14:11:09.555043531Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: A fork of Radarr to work with Books & AudioBooks
+    digest: d76384a1d7472deda6a91c5c64d96588874d04f42b8ea6465e25e1c948dbe3af
+    home: https://github.com/truecharts/truecharts/tree/master/charts/readarr
+    icon: https://github.com/Readarr/Readarr/blob/develop/Logo/1024.png?raw=true
+    keywords:
+    - readarr
+    - torrent
+    - usenet
+    - AudioBooks
+    - ebooks
+    maintainers:
+    - name: TrueCharts
+    name: readarr
+    sources:
+    - https://github.com/Readarr/Readarr
+    - https://readarr.com
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/readarr-1.0.0/readarr-1.0.0.tgz
+    version: 1.0.0
   - apiVersion: v2
     appVersion: 0.2.0.351
     created: "2021-02-11T20:51:32.989900572Z"
