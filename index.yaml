@@ -260,7 +260,48 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/calibre-web-0.0.1/calibre-web-0.0.1.tgz
     version: 0.0.1
+  collabora-online:
+  - apiVersion: v2
+    appVersion: 6.4.6.1
+    created: "2021-02-16T13:48:13.016465945Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.12.2
+    description: Collabora Online Development Edition – an awesome, Online Office suite image suitable for home use.
+    digest: 75807de420be6bd3bd8f7788e54d8028f457c17b1a6eb46fc98e055215776a32
+    home: https://www.collaboraoffice.com/
+    icon: https://avatars.githubusercontent.com/u/22418908?s=200&v=4
+    keywords:
+    - collabora
+    - collaboration
+    - documents
+    name: collabora-online
+    sources:
+    - https://hub.docker.com/r/collabora/code
+    - https://www.collaboraoffice.com/code/docker/
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/collabora-online-0.0.1/collabora-online-0.0.1.tgz
+    version: 0.0.1
   common:
+  - apiVersion: v2
+    created: "2021-02-16T13:48:13.125435311Z"
+    description: Function library for TrueCharts
+    digest: 68ff8be954e11d102159ac8af954995b4db2e535bca1bb8b1869ba5d1997996a
+    home: https://github.com/truecharts/truecharts/tree/master/common
+    keywords:
+    - truecharts
+    - library-chart
+    - k8s-at-home
+    - common
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: truecharts
+    name: common
+    type: library
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/common-1.0.0/common-1.0.0.tgz
+    version: 1.0.0
   - apiVersion: v2
     created: "2021-02-11T20:07:50.086181758Z"
     description: Function library for TrueCharts
@@ -381,6 +422,25 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/common-0.10.1/common-0.10.1.tgz
     version: 0.10.1
   common-test:
+  - apiVersion: v2
+    created: "2021-02-16T13:48:13.22782446Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: n/a
+    description: Helper chart to test different use cases of the common library
+    digest: 5dc896a67c3710de0dfa336a2948a1024459e8b0ce130cee9cad7b175a2ba0f8
+    home: https://github.com/truecharts/truecharts/tree/master/charts/common-test
+    keywords:
+    - truecharts
+    - common
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: truecharts
+    name: common-test
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/common-test-1.2.1/common-test-1.2.1.tgz
+    version: 1.2.1
   - apiVersion: v2
     created: "2021-02-09T18:15:02.86789463Z"
     dependencies:
@@ -2048,6 +2108,30 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/node-red-0.1.0/node-red-0.1.0.tgz
     version: 0.1.0
+  nzbhydra:
+  - apiVersion: v2
+    appVersion: v3.8.1
+    created: "2021-02-16T13:48:13.957709539Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.12.2
+    description: Usenet meta search
+    digest: cf7d22c64925333d8bbad7d88fdd5906c31d03c6120649e86744c8e022ec8b1a
+    home: https://github.com/truecharts/truecharts/tree/master/charts/nzbhydra
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-icon.png
+    keywords:
+    - nzbhydra
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: nzbhydra
+    sources:
+    - https://hub.docker.com/r/linuxserver/nzbhydra2
+    - https://github.com/theotherp/nzbhydra2
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/nzbhydra-0.1.1/nzbhydra-0.1.1.tgz
+    version: 0.1.1
   nzbhydra2:
   - apiVersion: v2
     appVersion: v3.8.1
@@ -2471,6 +2555,28 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/organizr-0.1.1/organizr-0.1.1.tgz
     version: 0.1.1
   qbittorrent:
+  - apiVersion: v2
+    appVersion: 4.3.0
+    created: "2021-02-16T13:48:14.074945313Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 0.12.2
+    description: qBittorrent is a cross-platform free and open-source BitTorrent client
+    digest: 2157ed1d7cdf4e67cf234b3bb5445656745ddca85fa07f26064927bf0dbebc63
+    home: https://github.com/truecharts/truecharts/tree/master/charts/qbittorrent
+    icon: https://cloud.githubusercontent.com/assets/14862437/23586868/89ef2922-01c4-11e7-869c-52aafcece17f.png
+    keywords:
+    - qbittorrent
+    - torrrent
+    maintainers:
+    - name: TrueCharts
+    name: qbittorrent
+    sources:
+    - https://hub.docker.com/r/linuxserver/qbittorrent/
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/qbittorrent-0.1.2/qbittorrent-0.1.2.tgz
+    version: 0.1.2
   - apiVersion: v2
     appVersion: 4.3.0
     created: "2021-02-11T20:51:32.796016459Z"
@@ -3089,6 +3195,33 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/tautulli-0.1.0/tautulli-0.1.0.tgz
     version: 0.1.0
   traefik:
+  - apiVersion: v2
+    appVersion: 2.4.2
+    created: "2021-02-16T13:48:14.284800493Z"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.2.0
+    - name: reflector
+      repository: https://emberstack.github.io/helm-charts
+      version: 5.4.17
+    description: A Traefik based Kubernetes ingress controller
+    digest: 192a384506c3c8711d42693bba1a8c859272c5112ed7a3708ff55f48dfc09bd9
+    home: https://traefik.io/
+    icon: https://raw.githubusercontent.com/traefik/traefik/v2.3/docs/content/assets/img/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    maintainers:
+    - name: truecharts
+    name: traefik
+    sources:
+    - https://github.com/traefik/traefik
+    - https://github.com/traefik/traefik-helm-chart
+    type: application
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/traefik-0.4.0/traefik-0.4.0.tgz
+    version: 0.4.0
   - apiVersion: v2
     appVersion: 2.4.2
     created: "2021-02-11T20:07:52.56304156Z"
