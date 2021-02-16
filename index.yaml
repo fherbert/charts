@@ -525,6 +525,30 @@ entries:
   esphome:
   - apiVersion: v2
     appVersion: 1.15.3
+    created: "2021-02-16T14:25:57.924442313Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
+    digest: 5b5912300000a2cbc3c38431426e0c037ace14231496adce734771f4ff80bca5
+    home: https://github.com/truecharts/charts/tree/dev/charts/esphome
+    icon: https://esphome.io/_images/logo.svg
+    keywords:
+    - esphome
+    maintainers:
+    - name: TrueCharts
+    name: esphome
+    sources:
+    - https://github.com/esphome/esphome
+    - https://hub.docker.com/u/esphome
+    - https://github.com/k8s-at-home/charts/tree/master/charts/esphome
+    type: application
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/esphome-1.0.0/esphome-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.15.3
     created: "2021-02-11T20:51:31.016294171Z"
     dependencies:
     - name: common
@@ -1099,6 +1123,31 @@ entries:
   home-assistant:
   - apiVersion: v2
     appVersion: 2021.2.2
+    created: "2021-02-16T14:25:58.023400232Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Home Assistant
+    digest: c2d907055dcd78216423ab30e3569af44b8c7f2f5d61c810c8e1dc6aee1fae91
+    home: https://github.com/truecharts/charts/tree/dev/charts/home-assistant
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Home_Assistant_Logo.svg/519px-Home_Assistant_Logo.svg.png
+    keywords:
+    - home-assistant
+    - hass
+    - homeassistant
+    maintainers:
+    - name: TrueCharts
+    name: home-assistant
+    sources:
+    - https://github.com/home-assistant/home-assistant
+    - https://github.com/cdr/code-server
+    - https://github.com/k8s-at-home/charts/tree/master/charts/home-assistant
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/home-assistant-1.0.0/home-assistant-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 2021.2.2
     created: "2021-02-11T20:51:31.626220217Z"
     dependencies:
     - name: common
@@ -1198,6 +1247,30 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/home-assistant-0.0.1/home-assistant-0.0.1.tgz
     version: 0.0.1
   jackett:
+  - apiVersion: v2
+    appVersion: version-v0.17.153
+    created: "2021-02-16T14:25:58.217776153Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: API Support for your favorite torrent trackers.
+    digest: 4bfd7ec4e48ceb15f4582594c9f8da8ec824387925ebc6c3abf3b5366785c720
+    home: https://github.com/truecharts/charts/tree/dev/charts/jackett
+    icon: https://raw.githubusercontent.com/truecharts/truecharts/master/charts/jackett/icon.png?raw=true
+    keywords:
+    - jackett
+    - torrent
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: jackett
+    sources:
+    - https://github.com/Jackett/Jackett
+    - https://hub.docker.com/r/linuxserver/jackett
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/jackett-1.0.0/jackett-1.0.0.tgz
+    version: 1.0.0
   - apiVersion: v2
     appVersion: version-v0.17.153
     created: "2021-02-11T20:51:31.732541622Z"
@@ -1677,6 +1750,29 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/kms-0.1.0/kms-0.1.0.tgz
     version: 0.1.0
   lazylibrarian:
+  - apiVersion: v2
+    appVersion: 1.7.2
+    created: "2021-02-16T14:25:58.337409089Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: A Helm chart for deploying LazyLibrarian
+    digest: 749af437b5a997befa6c180214e44b76f1a5117659a0cb3684fedd3b863fc04d
+    home: https://github.com/truecharts/truecharts/charts/0.0.1/lazylibrarian
+    icon: https://lazylibrarian.gitlab.io/logo.svg
+    keywords:
+    - lazylibrarian
+    - ebooks
+    maintainers:
+    - name: TrueCharts
+    name: lazylibrarian
+    sources:
+    - https://gitlab.com/LazyLibrarian/LazyLibrarian.git
+    - https://lazylibrarian.gitlab.io
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/lazylibrarian-1.0.0/lazylibrarian-1.0.0.tgz
+    version: 1.0.0
   - apiVersion: v2
     appVersion: 1.7.2
     created: "2021-02-11T20:51:32.0296003Z"
@@ -2715,6 +2811,28 @@ entries:
   qbittorrent:
   - apiVersion: v2
     appVersion: 4.3.0
+    created: "2021-02-16T14:25:58.495219868Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: qBittorrent is a cross-platform free and open-source BitTorrent client
+    digest: 114908823a3d96a4c833f6651e103c8ffa8801f71b8ed743f1f623fe377ad756
+    home: https://github.com/truecharts/truecharts/tree/master/charts/qbittorrent
+    icon: https://cloud.githubusercontent.com/assets/14862437/23586868/89ef2922-01c4-11e7-869c-52aafcece17f.png
+    keywords:
+    - qbittorrent
+    - torrrent
+    maintainers:
+    - name: TrueCharts
+    name: qbittorrent
+    sources:
+    - https://hub.docker.com/r/linuxserver/qbittorrent/
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/qbittorrent-1.0.0/qbittorrent-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 4.3.0
     created: "2021-02-16T13:48:14.074945313Z"
     dependencies:
     - name: common
@@ -3487,6 +3605,30 @@ entries:
   transmission:
   - apiVersion: v2
     appVersion: version-v0.17.153
+    created: "2021-02-16T14:25:58.659648455Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: API Support for your favorite torrent trackers.
+    digest: 11c0a9279c1d08cf66485029fb70bac75663ed97526341b5757c23fc80887373
+    home: https://github.com/truecharts/charts/tree/dev/charts/transmission
+    icon: https://github.com/Jackett/Jackett/blob/phantom-develop/Logo/512.png?raw=true
+    keywords:
+    - transmission
+    - torrent
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: transmission
+    sources:
+    - https://github.com/transmission/transmission
+    - https://hub.docker.com/r/linuxserver/transmission
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/transmission-1.0.0/transmission-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: version-v0.17.153
     created: "2021-02-11T20:51:33.392643834Z"
     dependencies:
     - name: common
@@ -3785,6 +3927,33 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/truecommand-0.1.0/truecommand-0.1.0.tgz
     version: 0.1.0
   zwavejs2mqtt:
+  - apiVersion: v2
+    appVersion: 1.1.1
+    created: "2021-02-16T14:25:58.773334684Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Fully configurable Zwave to MQTT gateway and Control Panel using NodeJS and Vue
+    digest: 063e21fff9e3db00b4c009506debdce724a71f1a28c01026acb8b788b3301363
+    home: https://github.com/truecharts/charts/tree/dev/charts/zwavejsmqtt
+    icon: https://raw.githubusercontent.com/zwave-js/zwavejs2mqtt/master/static/logo.png
+    keywords:
+    - zwavejs2mqtt
+    - zwave-js
+    - z-wave
+    - zwave
+    maintainers:
+    - name: TrueCharts
+    name: zwavejs2mqtt
+    sources:
+    - https://github.com/zwave-js/zwavejs2mqtt
+    - https://hub.docker.com/r/zwavejs/zwavejs2mqtt
+    - https://github.com/k8s-at-home/charts/tree/master/charts/zwavejs2mqtt
+    type: application
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/zwavejs2mqtt-1.0.0/zwavejs2mqtt-1.0.0.tgz
+    version: 1.0.0
   - apiVersion: v2
     appVersion: 1.1.1
     created: "2021-02-11T20:51:33.655954698Z"
