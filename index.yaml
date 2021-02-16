@@ -263,6 +263,28 @@ entries:
   collabora-online:
   - apiVersion: v2
     appVersion: 6.4.6.1
+    created: "2021-02-16T13:57:08.873806898Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Collabora Online Development Edition – an awesome, Online Office suite image suitable for home use.
+    digest: 1f7aee5bd6221da1cbb95b30a75666fffd2c9747f11e4c04c50a60396b5b3a09
+    home: https://www.collaboraoffice.com/
+    icon: https://avatars.githubusercontent.com/u/22418908?s=200&v=4
+    keywords:
+    - collabora
+    - collaboration
+    - documents
+    name: collabora-online
+    sources:
+    - https://hub.docker.com/r/collabora/code
+    - https://www.collaboraoffice.com/code/docker/
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/collabora-online-1.0.0/collabora-online-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 6.4.6.1
     created: "2021-02-16T13:48:13.016465945Z"
     dependencies:
     - name: common
