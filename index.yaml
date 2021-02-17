@@ -549,6 +549,30 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/common-test-1.1.0/common-test-1.1.0.tgz
     version: 1.1.0
+  deluge:
+  - apiVersion: v2
+    appVersion: v2.0.3-2201906121747
+    created: "2021-02-17T12:01:33.594370001Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Deluge is a torrent download client
+    digest: 8f455dfff6dba669133347e30ca19e92c66de4a3f3ea8214f7e39e107ff78182
+    home: https://github.com/truecharts/truecharts/tree/master/charts/deluge
+    icon: https://avatars2.githubusercontent.com/u/6733935?v=3&s=200
+    keywords:
+    - deluge
+    - torrent
+    maintainers:
+    - name: TrueCharts
+    name: deluge
+    sources:
+    - https://hub.docker.com/r/linuxserver/deluge/
+    - https://deluge-torrent.org/
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/deluge-1.0.0/deluge-1.0.0.tgz
+    version: 1.0.0
   esphome:
   - apiVersion: v2
     appVersion: 1.15.3
@@ -2318,6 +2342,31 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/lychee-0.0.1/lychee-0.0.1.tgz
     version: 0.0.1
+  navidrome:
+  - apiVersion: v2
+    appVersion: 0.39.0
+    created: "2021-02-17T12:01:33.71018794Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Navidrome is an open source web-based music collection server and streamer
+    digest: 44d41b74bd897860d91b920ece837c994bb06ea4e8afb82f63046fddedb5a65a
+    home: https://github.com/truecharts/truecharts/tree/master/charts/navidrome
+    icon: https://github.com/deluan/navidrome/blob/master/ui/src/icons/android-icon-72x72.png?raw=true
+    keywords:
+    - navidrome
+    - music
+    - streaming
+    maintainers:
+    - name: TrueCharts
+    name: navidrome
+    sources:
+    - https://github.com/deluan/navidrome
+    - https://hub.docker.com/r/deluan/navidrome
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/navidrome-1.0.0/navidrome-1.0.0.tgz
+    version: 1.0.0
   node-red:
   - apiVersion: v2
     appVersion: 1.2.5
@@ -2480,6 +2529,30 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/node-red-0.1.0/node-red-0.1.0.tgz
     version: 0.1.0
+  nzbget:
+  - apiVersion: v2
+    appVersion: v21.0
+    created: "2021-02-17T12:01:33.82881483Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: NZBGet is a Usenet downloader client
+    digest: 92f0d4da454bd78c4634a49c5e9b83fc8537b39029a8a85f529fd30f99fbb0e9
+    home: https://github.com/truecharts/truecharts/tree/master/charts/nzbget
+    icon: https://avatars1.githubusercontent.com/u/3368377?s=400&v=4
+    keywords:
+    - nzbget
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: nzbget
+    sources:
+    - https://hub.docker.com/r/linuxserver/nzbget/
+    - https://nzbget.net/
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/nzbget-1.0.0/nzbget-1.0.0.tgz
+    version: 1.0.0
   nzbhydra:
   - apiVersion: v2
     appVersion: v3.8.1
@@ -3408,6 +3481,30 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/readarr-0.0.1/readarr-0.0.1.tgz
     version: 0.0.1
+  sabnzbd:
+  - apiVersion: v2
+    appVersion: 3.1.0
+    created: "2021-02-17T12:01:33.929286285Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Free and easy binary newsreader
+    digest: 10956072dd6e5057a0f6e017ba89048286958fb275086167fc73a70d6cd925c2
+    home: https://github.com/truecharts/truecharts/tree/master/charts/sabnzbd
+    icon: https://avatars1.githubusercontent.com/u/960698?s=400&v=4
+    keywords:
+    - sabnzbd
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: sabnzbd
+    sources:
+    - https://hub.docker.com/r/linuxserver/sabnzbd/
+    - https://sabnzbd.org/
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/sabnzbd-1.0.0/sabnzbd-1.0.0.tgz
+    version: 1.0.0
   sonarr:
   - apiVersion: v2
     appVersion: 3.0.4.993
@@ -4206,6 +4303,30 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/truecommand-0.1.0/truecommand-0.1.0.tgz
     version: 0.1.0
+  tvheadend:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-02-17T12:01:34.055500087Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: TVheadend - a TV streaming server and digital video recorder
+    digest: d24f15f0d6024bebe74736aafaf2434668ed025c23798c803a1396f2216110d2
+    home: https://github.com/truecharts/truecharts/tree/master/charts/tvheadend
+    icon: https://avatars.githubusercontent.com/u/1908588?s=200&v=4
+    keywords:
+    - tv
+    - streaming
+    - dvb
+    maintainers:
+    - name: TrueCharts
+    name: tvheadend
+    sources:
+    - https://github.com/tvheadend/tvheadend
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/tvheadend-1.0.0/tvheadend-1.0.0.tgz
+    version: 1.0.0
   zwavejs2mqtt:
   - apiVersion: v2
     appVersion: 1.1.1
