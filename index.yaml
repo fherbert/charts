@@ -1224,6 +1224,31 @@ entries:
   home-assistant:
   - apiVersion: v2
     appVersion: 2021.2.2
+    created: "2021-02-18T18:45:15.317236409Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Home Assistant
+    digest: 067044defb551873e1bf5470a74017329d0043cd7c904a8cea369132eca76a11
+    home: https://github.com/truecharts/charts/tree/dev/charts/home-assistant
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Home_Assistant_Logo.svg/519px-Home_Assistant_Logo.svg.png
+    keywords:
+    - home-assistant
+    - hass
+    - homeassistant
+    maintainers:
+    - name: TrueCharts
+    name: home-assistant
+    sources:
+    - https://github.com/home-assistant/home-assistant
+    - https://github.com/cdr/code-server
+    - https://github.com/k8s-at-home/charts/tree/master/charts/home-assistant
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/home-assistant-1.0.2/home-assistant-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 2021.2.2
     created: "2021-02-18T17:04:27.98488181Z"
     dependencies:
     - name: common
@@ -4752,4 +4777,4 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/zwavejs2mqtt-0.0.1/zwavejs2mqtt-0.0.1.tgz
     version: 0.0.1
-generated: "2021-02-18T17:05:08.625947970Z"
+generated: "2021-02-18T17:05:08.62594797Z"
