@@ -2468,6 +2468,29 @@ entries:
   node-red:
   - apiVersion: v2
     appVersion: 1.2.5
+    created: "2021-02-18T14:19:16.779394723Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Node-RED is low-code programming for event-driven applications
+    digest: c62466ee1b1d9997327cdebdd1ead07c1824f40fc593cf8b0b6cf7b571b9c033
+    home: https://github.com/truecharts/charts/tree/dev/charts/node-red
+    icon: https://nodered.org/about/resources/media/node-red-icon-2.png
+    keywords:
+    - nodered
+    - node-red
+    maintainers:
+    - name: TrueCharts
+    name: node-red
+    sources:
+    - https://github.com/node-red/node-red-docker
+    - https://github.com/k8s-at-home/charts/tree/master/charts/node-red
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/node-red-1.0.1/node-red-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.2.5
     created: "2021-02-16T14:34:01.572266016Z"
     dependencies:
     - name: common
@@ -2630,6 +2653,29 @@ entries:
   nzbget:
   - apiVersion: v2
     appVersion: v21.0
+    created: "2021-02-18T14:19:17.062745106Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: NZBGet is a Usenet downloader client
+    digest: 71c1a71f22d76922e2bbdea9f35cbfe76d899418c7b74b1647bb93ce187df1d0
+    home: https://github.com/truecharts/truecharts/tree/master/charts/nzbget
+    icon: https://avatars1.githubusercontent.com/u/3368377?s=400&v=4
+    keywords:
+    - nzbget
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: nzbget
+    sources:
+    - https://hub.docker.com/r/linuxserver/nzbget/
+    - https://nzbget.net/
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/nzbget-1.0.1/nzbget-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: v21.0
     created: "2021-02-17T12:01:33.82881483Z"
     dependencies:
     - name: common
@@ -2652,6 +2698,29 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/nzbget-1.0.0/nzbget-1.0.0.tgz
     version: 1.0.0
   nzbhydra:
+  - apiVersion: v2
+    appVersion: v3.8.1
+    created: "2021-02-18T14:19:17.323244437Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Usenet meta search
+    digest: 49b8ad1601b936e1571f1e1727bdfd7e42e1413aa6137188984f0c0e607dd4bb
+    home: https://github.com/truecharts/truecharts/tree/master/charts/nzbhydra
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-icon.png
+    keywords:
+    - nzbhydra
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: nzbhydra
+    sources:
+    - https://hub.docker.com/r/linuxserver/nzbhydra2
+    - https://github.com/theotherp/nzbhydra2
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/nzbhydra-1.0.1/nzbhydra-1.0.1.tgz
+    version: 1.0.1
   - apiVersion: v2
     appVersion: v3.8.1
     created: "2021-02-16T14:11:09.439320963Z"
@@ -3630,6 +3699,29 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/readarr-0.0.1/readarr-0.0.1.tgz
     version: 0.0.1
   sabnzbd:
+  - apiVersion: v2
+    appVersion: 3.1.0
+    created: "2021-02-18T14:19:17.569083009Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Free and easy binary newsreader
+    digest: 5883435600124a90be6425cba770e46eaa0d69916b1f8094fe9799b7f71a8b32
+    home: https://github.com/truecharts/truecharts/tree/master/charts/sabnzbd
+    icon: https://avatars1.githubusercontent.com/u/960698?s=400&v=4
+    keywords:
+    - sabnzbd
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: sabnzbd
+    sources:
+    - https://hub.docker.com/r/linuxserver/sabnzbd/
+    - https://sabnzbd.org/
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/sabnzbd-1.0.1/sabnzbd-1.0.1.tgz
+    version: 1.0.1
   - apiVersion: v2
     appVersion: 3.1.0
     created: "2021-02-17T12:01:33.929286285Z"
