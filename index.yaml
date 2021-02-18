@@ -3,6 +3,33 @@ entries:
   bazarr:
   - apiVersion: v2
     appVersion: v0.9.0.5
+    created: "2021-02-18T13:54:11.392569024Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Bazarr is a companion application to Bazarr and Radarr. It manages and downloads subtitles based on your requirements
+    digest: 7889a0759a9001aef623be5b73f23851689b87f509112ac296d7b8d60c41f5b6
+    home: https://github.com/truecharts/charts/tree/dev/charts/bazarr
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bazarr.png
+    keywords:
+    - bazarr
+    - radarr
+    - bazarr
+    - subtitles
+    - usenet
+    - torrent
+    maintainers:
+    - name: TrueCharts
+    name: bazarr
+    sources:
+    - https://github.com/Bazarr/Bazarr
+    - https://hub.docker.com/r/linuxserver/bazarr
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/bazarr-1.0.1/bazarr-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: v0.9.0.5
     created: "2021-02-16T14:34:00.533635287Z"
     dependencies:
     - name: common
@@ -1870,6 +1897,29 @@ entries:
   lazylibrarian:
   - apiVersion: v2
     appVersion: 1.7.2
+    created: "2021-02-18T13:54:11.67907795Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: A Helm chart for deploying LazyLibrarian
+    digest: cde000fe7af4f7524661d83fe655f6da5de2a27cb5511482057ddffb290b0e4e
+    home: https://github.com/truecharts/truecharts/charts/0.0.1/lazylibrarian
+    icon: https://lazylibrarian.gitlab.io/logo.svg
+    keywords:
+    - lazylibrarian
+    - ebooks
+    maintainers:
+    - name: TrueCharts
+    name: lazylibrarian
+    sources:
+    - https://gitlab.com/LazyLibrarian/LazyLibrarian.git
+    - https://lazylibrarian.gitlab.io
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/lazylibrarian-1.0.1/lazylibrarian-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.7.2
     created: "2021-02-16T14:25:58.337409089Z"
     dependencies:
     - name: common
@@ -2053,6 +2103,30 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/lazylibrarian-0.2.0/lazylibrarian-0.2.0.tgz
     version: 0.2.0
   lidarr:
+  - apiVersion: v2
+    appVersion: 0.8.0.1886
+    created: "2021-02-18T13:54:11.945209981Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Looks and smells like Sonarr but made for music
+    digest: 2bbd7b53a52ca276cd361efb7b705af4cd17ce93c93a14f58d4176b5a021262a
+    home: https://github.com/truecharts/charts/tree/dev/charts/lidarr
+    icon: https://avatars3.githubusercontent.com/u/28475832?s=400&v=4
+    keywords:
+    - lidarr
+    - torrent
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: lidarr
+    sources:
+    - https://github.com/Lidarr/Lidarr
+    - https://hub.docker.com/r/linuxserver/lidarr
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/lidarr-1.0.1/lidarr-1.0.1.tgz
+    version: 1.0.1
   - apiVersion: v2
     appVersion: 0.8.0.1886
     created: "2021-02-16T14:34:01.318996586Z"
@@ -2246,6 +2320,30 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/lidarr-0.1.0/lidarr-0.1.0.tgz
     version: 0.1.0
   lychee:
+  - apiVersion: v2
+    appVersion: 4.0.8
+    created: "2021-02-18T13:54:12.230352109Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Lychee is a free photo-management tool, which runs on your server or web-space
+    digest: fdba4555ffe13a316bf3166965e4c96f24488e1bc0447564bc77cb865d0b2ab2
+    home: https://github.com/truecharts/truecharts/tree/master/charts/lychee
+    icon: https://github.com/LycheeOrg/Lychee/blob/master/Banner.png?raw=true
+    keywords:
+    - lychee
+    - photo
+    - pictures
+    maintainers:
+    - name: TrueCharts
+    name: lychee
+    sources:
+    - https://github.com/LycheeOrg/Lychee
+    - https://hub.docker.com/r/lycheeorg/lychee
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/lychee-1.0.1/lychee-1.0.1.tgz
+    version: 1.0.1
   - apiVersion: v2
     appVersion: 4.0.8
     created: "2021-02-16T14:11:09.326183833Z"
@@ -3186,6 +3284,30 @@ entries:
   radarr:
   - apiVersion: v2
     appVersion: 3.0.0.3989
+    created: "2021-02-18T13:54:12.524572835Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: A fork of Sonarr to work with movies à la Couchpotato
+    digest: 807368b60c25290c6ce6fa2c436e3f60f7af855f0529624568ecb21a4a66545c
+    home: https://github.com/truecharts/charts/tree/dev/charts/radarr
+    icon: https://nzbusenet.com/wp-content/uploads/2017/10/radarr-logo.png
+    keywords:
+    - radarr
+    - torrent
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: radarr
+    sources:
+    - https://github.com/Radarr/Radarr
+    - https://hub.docker.com/r/linuxserver/radarr
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/radarr-1.0.1/radarr-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 3.0.0.3989
     created: "2021-02-16T14:34:02.424216426Z"
     dependencies:
     - name: common
@@ -3379,6 +3501,32 @@ entries:
   readarr:
   - apiVersion: v2
     appVersion: 0.2.0.351
+    created: "2021-02-18T13:54:12.797318366Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: A fork of Radarr to work with Books & AudioBooks
+    digest: ae352f8cb77fc9294edeeb32387ce327a0081aa89afa61d8d709673a29eac9bc
+    home: https://github.com/truecharts/truecharts/tree/master/charts/readarr
+    icon: https://github.com/Readarr/Readarr/blob/develop/Logo/1024.png?raw=true
+    keywords:
+    - readarr
+    - torrent
+    - usenet
+    - AudioBooks
+    - ebooks
+    maintainers:
+    - name: TrueCharts
+    name: readarr
+    sources:
+    - https://github.com/Readarr/Readarr
+    - https://readarr.com
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/readarr-1.0.1/readarr-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 0.2.0.351
     created: "2021-02-16T14:11:09.555043531Z"
     dependencies:
     - name: common
@@ -3506,6 +3654,30 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/sabnzbd-1.0.0/sabnzbd-1.0.0.tgz
     version: 1.0.0
   sonarr:
+  - apiVersion: v2
+    appVersion: 3.0.4.993
+    created: "2021-02-18T13:54:13.098904491Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.0.0
+    description: Smart PVR for newsgroup and bittorrent users
+    digest: 94a3a2cd4032fee5cf05c8283a1e7099cc5f816e52e16712990de84f1130abe0
+    home: https://github.com/truecharts/charts/tree/dev/charts/sonarr
+    icon: https://github.com/Sonarr/Sonarr/blob/phantom-develop/Logo/512.png?raw=true
+    keywords:
+    - sonarr
+    - torrent
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: sonarr
+    sources:
+    - https://github.com/Sonarr/Sonarr
+    - https://hub.docker.com/r/linuxserver/sonarr
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/sonarr-1.0.1/sonarr-1.0.1.tgz
+    version: 1.0.1
   - apiVersion: v2
     appVersion: 3.0.4.993
     created: "2021-02-16T14:34:02.585446133Z"
