@@ -4766,6 +4766,25 @@ entries:
   tautulli:
   - apiVersion: v2
     appVersion: v2.5.4
+    created: "2021-02-19T21:54:27.715548899Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.1.1
+    description: Statistics for Plex
+    digest: 169e1618f10207f24993a0ab0e5df5cd30676cf782838507c84d1f08bb3aaca3
+    home: https://github.com/truecharts/truecharts/tree/dev/charts/tautulli
+    icon: https://github.com/Tautulli/Tautulli/blob/master/data/interfaces/default/images/logo.png?raw=true
+    keywords:
+    - tautulli
+    maintainers:
+    - name: TrueCharts
+    name: tautulli
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/tautulli-1.1.0/tautulli-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: v2.5.4
     created: "2021-02-16T14:34:02.721376609Z"
     dependencies:
     - name: common
@@ -5025,6 +5044,30 @@ entries:
   transmission:
   - apiVersion: v2
     appVersion: version-v0.17.153
+    created: "2021-02-19T21:54:27.841322936Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.1.1
+    description: API Support for your favorite torrent trackers.
+    digest: 4035228aef70d1dac33a1b42cd25b67b69c71b982b4ed5f4a359ab155f9696fb
+    home: https://github.com/truecharts/charts/tree/dev/charts/transmission
+    icon: https://github.com/Jackett/Jackett/blob/phantom-develop/Logo/512.png?raw=true
+    keywords:
+    - transmission
+    - torrent
+    - usenet
+    maintainers:
+    - name: TrueCharts
+    name: transmission
+    sources:
+    - https://github.com/transmission/transmission
+    - https://hub.docker.com/r/linuxserver/transmission
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/transmission-1.1.0/transmission-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: version-v0.17.153
     created: "2021-02-16T14:25:58.659648455Z"
     dependencies:
     - name: common
@@ -5192,6 +5235,28 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/transmission-0.2.0/transmission-0.2.0.tgz
     version: 0.2.0
   truecommand:
+  - apiVersion: v2
+    appVersion: 1.3.2
+    created: "2021-02-19T21:54:27.936686702Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.1.1
+    description: Aggregated management of TrueNAS devices
+    digest: 24934b2dfc841f6c0a964da019933ee98d9b2475a972b5d530a6386d75c355d5
+    home: https://github.com/truecharts/charts/tree/dev/charts/truecommand
+    icon: https://www.ixsystems.com/documentation/truecommand/1.2/_static/tv-logo.png
+    keywords:
+    - truecommand
+    maintainers:
+    - name: TrueCharts
+    name: truecommand
+    sources:
+    - https://github.com/Truecommand/Truecommand
+    - https://hub.docker.com/r/ixsystems/truecommand
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/truecommand-1.1.0/truecommand-1.1.0.tgz
+    version: 1.1.0
   - apiVersion: v2
     appVersion: 1.3.2
     created: "2021-02-16T14:34:02.931021948Z"
@@ -5371,6 +5436,29 @@ entries:
   tvheadend:
   - apiVersion: v2
     appVersion: latest
+    created: "2021-02-19T21:54:28.033675666Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.1.1
+    description: TVheadend - a TV streaming server and digital video recorder
+    digest: 5ab47227c138feaa0c26583cd2e3d19225d3f31b2bd55752d57cccce590464ae
+    home: https://github.com/truecharts/truecharts/tree/master/charts/tvheadend
+    icon: https://avatars.githubusercontent.com/u/1908588?s=200&v=4
+    keywords:
+    - tv
+    - streaming
+    - dvb
+    maintainers:
+    - name: TrueCharts
+    name: tvheadend
+    sources:
+    - https://github.com/tvheadend/tvheadend
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/tvheadend-1.1.0/tvheadend-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: latest
     created: "2021-02-17T12:01:34.055500087Z"
     dependencies:
     - name: common
@@ -5393,6 +5481,34 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/tvheadend-1.0.0/tvheadend-1.0.0.tgz
     version: 1.0.0
   zwavejs2mqtt:
+  - apiVersion: v2
+    appVersion: 1.1.1
+    created: "2021-02-19T21:54:28.138643299Z"
+    dependencies:
+    - name: common
+      repository: https://charts.truecharts.org/
+      version: 1.1.1
+    description: Fully configurable Zwave to MQTT gateway and Control Panel using
+      NodeJS and Vue
+    digest: 66cbaa9b0dd8db2d9b477db8317dfa25afb8c8d7bd1c61126dfcce296390bf34
+    home: https://github.com/truecharts/charts/tree/dev/charts/zwavejsmqtt
+    icon: https://raw.githubusercontent.com/zwave-js/zwavejs2mqtt/master/static/logo.png
+    keywords:
+    - zwavejs2mqtt
+    - zwave-js
+    - z-wave
+    - zwave
+    maintainers:
+    - name: TrueCharts
+    name: zwavejs2mqtt
+    sources:
+    - https://github.com/zwave-js/zwavejs2mqtt
+    - https://hub.docker.com/r/zwavejs/zwavejs2mqtt
+    - https://github.com/k8s-at-home/charts/tree/master/charts/zwavejs2mqtt
+    type: application
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/zwavejs2mqtt-1.1.0/zwavejs2mqtt-1.1.0.tgz
+    version: 1.1.0
   - apiVersion: v2
     appVersion: 1.1.1
     created: "2021-02-16T14:25:58.773334684Z"
@@ -5533,4 +5649,4 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/zwavejs2mqtt-0.0.1/zwavejs2mqtt-0.0.1.tgz
     version: 0.0.1
-generated: "2021-02-19T21:30:23.385624461Z"
+generated: "2021-02-19T21:54:28.139272393Z"
