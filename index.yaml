@@ -5099,6 +5099,33 @@ entries:
   traefik:
   - apiVersion: v2
     appVersion: 2.4.2
+    created: "2021-02-20T14:06:40.993375271Z"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.2.0
+    - name: reflector
+      repository: https://emberstack.github.io/helm-charts
+      version: 5.4.17
+    description: A Traefik based Kubernetes ingress controller
+    digest: c2ceef455ab916d37c76300d2ffbdd8f4f01c87fe6b98418e8251ba638e95823
+    home: https://traefik.io/
+    icon: https://raw.githubusercontent.com/traefik/traefik/v2.3/docs/content/assets/img/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    maintainers:
+    - name: truecharts
+    name: traefik
+    sources:
+    - https://github.com/traefik/traefik
+    - https://github.com/traefik/traefik-helm-chart
+    type: application
+    urls:
+    - https://github.com/truecharts/truecharts/releases/download/traefik-0.4.1/traefik-0.4.1.tgz
+    version: 0.4.1
+  - apiVersion: v2
+    appVersion: 2.4.2
     created: "2021-02-16T13:48:14.284800493Z"
     dependencies:
     - name: cert-manager
@@ -5907,4 +5934,4 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/zwavejs2mqtt-0.0.1/zwavejs2mqtt-0.0.1.tgz
     version: 0.0.1
-generated: "2021-02-20T11:58:06.954086880Z"
+generated: "2021-02-20T14:06:40.994073174Z"
