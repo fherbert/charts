@@ -674,6 +674,27 @@ entries:
     version: 0.0.1
   common:
   - apiVersion: v2
+    created: "2021-02-27T19:59:46.607212975Z"
+    description: Function library for TrueCharts
+    digest: 007f78196a9ef1101ab37cf2096dcf12672d03b9b5db7ecdaa5aedb69148e796
+    home: https://github.com/truecharts/truecharts/tree/master/common
+    keywords:
+    - truecharts
+    - library-chart
+    - common
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: truecharts.org
+    name: common
+    sources:
+    - https://github.com/truecharts/charts/tree/master/library/common
+    type: library
+    urls:
+    - https://github.com/truecharts/charts/releases/download/common-1.3.2/common-1.3.2.tgz
+    version: 1.3.2
+  - apiVersion: v2
     created: "2021-02-25T16:53:30.962413633Z"
     description: Function library for TrueCharts
     digest: 0d0e9ad13b575b5a1b015761de0193f49b7534e9134f5d353871e204864db18c
@@ -901,6 +922,32 @@ entries:
     - https://github.com/truecharts/truecharts/releases/download/common-0.10.1/common-0.10.1.tgz
     version: 0.10.1
   common-test:
+  - apiVersion: v2
+    created: "2021-02-27T19:59:46.722505166Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: n/a
+    description: Helper chart to test different use cases of the common library
+    digest: 1cee41656f627bae97359c4f052dda4d1724c782141a1a54dbe92757be273dfa
+    home: https://github.com/truecharts/charts/tree/master/library/common-test
+    keywords:
+    - common-test
+    - truecharts
+    - common
+    - test
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: truecharts.org
+    name: common-test
+    sources:
+    - https://github.com/truecharts/charts/tree/master/library/common-test
+    type: application
+    urls:
+    - https://github.com/truecharts/charts/releases/download/common-test-1.3.2/common-test-1.3.2.tgz
+    version: 1.3.2
   - apiVersion: v2
     created: "2021-02-25T16:53:31.048477112Z"
     dependencies:
@@ -8145,4 +8192,4 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/zwavejs2mqtt-0.0.1/zwavejs2mqtt-0.0.1.tgz
     version: 0.0.1
-generated: "2021-02-25T19:00:22.485839446Z"
+generated: "2021-02-27T19:59:46.723963582Z"
