@@ -674,6 +674,27 @@ entries:
     version: 0.0.1
   common:
   - apiVersion: v2
+    created: "2021-03-09T20:24:45.041068547Z"
+    description: Function library for TrueCharts
+    digest: 68c6b50b7b2cad6adc5e71cd1cb6472f086a8025e84427659b1b1d4def844388
+    home: https://github.com/truecharts/truecharts/tree/master/common
+    keywords:
+    - truecharts
+    - library-chart
+    - common
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: truecharts.org
+    name: common
+    sources:
+    - https://github.com/truecharts/charts/tree/master/library/common
+    type: library
+    urls:
+    - https://github.com/truecharts/charts/releases/download/common-1.6.7/common-1.6.7.tgz
+    version: 1.6.7
+  - apiVersion: v2
     created: "2021-03-03T15:52:43.06306501Z"
     description: Function library for TrueCharts
     digest: 0c3ef7e1b4dcab1a4b4669210ba768258cf42faad2537fd895b9ba6df74353fe
@@ -8412,4 +8433,4 @@ entries:
     urls:
     - https://github.com/truecharts/truecharts/releases/download/zwavejs2mqtt-0.0.1/zwavejs2mqtt-0.0.1.tgz
     version: 0.0.1
-generated: "2021-03-03T21:06:29.327194849Z"
+generated: "2021-03-09T20:24:45.04407546Z"
