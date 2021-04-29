@@ -155,68 +155,65 @@ questions:
                         default: 36053
                         required: true
   # Configure app volumes
-  - variable: appVolumeMounts
+  - variable: persistence
+    label: "Integrated Persistent Storage"
+    description: "Octoprint Config"
     group: "Storage"
-    label: ""
     schema:
       type: dict
       attrs:
-        # Config ------------------------
         - variable: data
-          label: "Data Volume"
+          label: "App Config Storage"
+          description: "Stores the Application Configuration."
           schema:
             type: dict
-            $ref:
-              - "normalize/ixVolume"
             attrs:
               - variable: enabled
-                label: "Enabled"
+                label: "Enable the storage"
                 schema:
                   type: boolean
                   default: true
-                  required: true
                   hidden: true
-                  editable: false
-              - variable: setPermissions
-                label: "Automatic Permissions"
-                description: "Automatically set permissions on install"
-                schema:
-                  type: boolean
-                  default: true
-                  hidden: false
-              - variable: emptyDir
-                label: "emptyDir"
-                schema:
-                  type: boolean
-                  default: false
-                  hidden: true
-                  editable: false
-              - variable: datasetName
-                label: "Name"
+              - variable: storageClass
+                label: "Type of Storage"
+                description: " Warning: Anything other than Internal will break rollback!"
                 schema:
                   type: string
-                  default: "store"
-                  editable: false
+                  default: ""
+                  enum:
+                    - value: ""
+                      description: "Internal"
               - variable: mountPath
-                label: "Mount path inside the container"
+                label: "mountPath"
+                description: "Path inside the container the storage is mounted"
                 schema:
-                  type: path
+                  type: string
                   default: "/octoprint"
-                  editable: false
-              - variable: hostPathEnabled
-                label: "Config - Enable Host Path"
-                description: "something about this here"
+                  hidden: true
+              - variable: emptyDir
+                label: "Mount a ramdisk instead of actual storage"
                 schema:
                   type: boolean
                   default: false
-                  show_subquestions_if: true
-                  subquestions:
-                    - variable: hostPath
-                      label: "Config Host Path"
-                      description: "Host path to store config"
-                      schema:
-                        type: hostpath
-                        required: true
+                  hidden: true
+              - variable: accessMode
+                label: "Access Mode (Advanced)"
+                description: "Allow or disallow multiple PVC's writing to the same PVC"
+                schema:
+                  type: string
+                  default: "ReadWriteOnce"
+                  enum:
+                    - value: "ReadWriteOnce"
+                      description: "ReadWriteOnce"
+                    - value: "ReadOnlyMany"
+                      description: "ReadOnlyMany"
+                    - value: "ReadWriteMany"
+                      description: "ReadWriteMany"
+              - variable: size
+                label: "Size quotum of storage"
+                schema:
+                  type: string
+                  default: "100Gi"
 
   - variable: additionalAppVolumeMounts
     label: "Device Mounts"
