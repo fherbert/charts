@@ -14,9 +14,10 @@ env: {}
   # MJPG_STREAMER_INPUT: "-y -n -r 640x480"
   # CAMERA_DEV: /dev/video0
 
-service:
-  port:
-    port: 80
+services:
+  main
+    port:
+      port: 80
 
 ingress:
   enabled: false
@@ -26,9 +27,12 @@ securityContext:
 
 persistence:
   data:
-    enabled: false
-    emptyDir: false
+    enabled: true
+    emptyDir: true
     mountPath: /octoprint
+    accessMode: ReadWriteOnce
+    size: 1Gi
+    storageClass: ""
 
 # Paths to your 3D printer and/or camera in the container
 additionalVolumeMounts: {}

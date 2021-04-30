@@ -90,6 +90,20 @@ questions:
       $ref:
         - "definitions/timezone"
 
+  # App env variables
+  - variable: env
+    group: "Configuration"
+    label: "Image Environment"
+    schema:
+      type: dict
+      attrs:
+        - variable: ENABLE_MJPG_STREAMER
+          label: "Enable MJPG Streamer"
+          description: "Enables the MJPG streamer - you must have a camera device configured"
+          schema:
+            type: boolean
+            default: false
+
   # Configure Enviroment Variables
   - variable: environmentVariables
     label: "Image environment"
@@ -192,14 +206,14 @@ questions:
   # Configure app volumes
   - variable: persistence
     label: "Integrated Persistent Storage"
-    description: "Octoprint Config"
+    description: "Octoprint Data"
     group: "Storage"
     schema:
       type: dict
       attrs:
         - variable: data
-          label: "App Config Storage"
-          description: "Stores the Application Configuration."
+          label: "App Storage"
+          description: "Stores the Application Data."
           schema:
             type: dict
             attrs:
@@ -248,7 +262,7 @@ questions:
                 label: "Size quotum of storage"
                 schema:
                   type: string
-                  default: "100Gi"
+                  default: "50Gi"
 
   - variable: additionalAppVolumeMounts
     label: "Device Mounts"
