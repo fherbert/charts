@@ -17,9 +17,9 @@ maintainers:
 - name: TrueCharts
   email: info@truecharts.org
   url: truecharts.org
-- name: billimek
-  email: jeff@billimek.com
+- name: fherbert
+  email: francois@herbert.org.nz
 dependencies:
 - name: common
-  repository: https://charts.truecharts.org/
-  version: 1.6.7
+  repository: https://truecharts.org/
+  version: 3.5.2
