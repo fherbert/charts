@@ -206,7 +206,7 @@ questions:
   - variable: persistence
     label: "Integrated Persistent Storage"
     description: "Octoprint Data"
-    group: "Storage"
+    group: "Storage and Devices"
     schema:
       type: dict
       attrs:
